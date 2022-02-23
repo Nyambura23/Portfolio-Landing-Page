@@ -19,7 +19,15 @@ body{
  
 }
 .Head{
-  font-size: 12px;
+  font-size: 20px;
 }
 
+.Para{
+  font-style: normal;
+  font-size: 15px;
+  line-height: 5px;
+  text-align: justify;
 
+
+
+}
