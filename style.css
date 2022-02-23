@@ -3,11 +3,19 @@ h1{
   font-size: 30px;
   text-align: center;
  color: rgb(44, 13, 131);
-}
-img {
-  float: left;
-}
- 
-body{
 
 }
+img {
+  
+}
+
+body{
+  background-color: antiquewhite;
+  font-size: 15px;
+  text-align:left;
+  padding: 10px;
+  margin: 20px;
+  
+
+}
+ 
