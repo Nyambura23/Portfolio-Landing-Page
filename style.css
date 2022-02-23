@@ -3,6 +3,7 @@ h1{
   font-size: 30px;
   text-align: center;
  color: rgb(44, 13, 131);
+ 
 
 }
 img {
@@ -15,7 +16,10 @@ body{
   text-align:left;
   padding: 10px;
   margin: 20px;
-  
-
-}
  
+}
+.Head{
+  font-size: 12px;
+}
+
+
