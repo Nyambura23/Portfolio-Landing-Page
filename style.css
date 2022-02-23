@@ -6,8 +6,11 @@ h1{
  
 
 }
-img {
-  
+ul {
+  color: rgb(117, 7, 7);
+}
+ol{
+  color: rgb(117, 7, 7);
 }
 
 body{
@@ -20,14 +23,14 @@ body{
 }
 .Head{
   font-size: 20px;
+  color:rgb(121, 54, 54)
 }
 
 .Para{
   font-style: normal;
   font-size: 15px;
   line-height: 5px;
-  text-align: justify;
-
-
+  text-align: left;
+  color: rgb(117, 7, 7);
 
 }
