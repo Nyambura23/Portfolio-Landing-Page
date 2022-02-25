@@ -7,11 +7,7 @@ h1{
 
 }
 
-ul {
-  color: rgb(117, 7, 7);
-}
-ol{
-  color: rgb(117, 7, 7);
+
 }
 
 body{
@@ -26,5 +22,36 @@ body{
   font-size: 20px;
   color:rgb(121, 54, 54);
 
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Navbar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:grey;
+  position: sticky;
+  top:0;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+  color: rgb(117, 7, 7);
+
+}
+
+.navbar ul li{
+  font-family: Arial, sans-serif;
+  color: rgb(117, 7, 7);
 
 }
