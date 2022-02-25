@@ -6,6 +6,7 @@ h1{
  
 
 }
+
 ul {
   color: rgb(117, 7, 7);
 }
@@ -16,21 +17,14 @@ ol{
 body{
   background-color: antiquewhite;
   font-size: 15px;
-  text-align:left;
   padding: 10px;
   margin: 20px;
+  text-align:left;
  
 }
 .Head{
   font-size: 20px;
-  color:rgb(121, 54, 54)
-}
+  color:rgb(121, 54, 54);
 
-.Para{
-  font-style: normal;
-  font-size: 15px;
-  line-height: 5px;
-  text-align: left;
-  color: rgb(117, 7, 7);
 
 }
