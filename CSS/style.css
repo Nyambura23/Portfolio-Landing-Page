@@ -1,29 +1,4 @@
-h1{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-  font-size: 30px;
-  text-align: center;
- color: rgb(44, 13, 131);
- 
 
-}
-
-
-}
-
-body{
-  background-color: antiquewhite;
-  font-size: 15px;
-  padding: 10px;
-  margin: 20px;
-  text-align:left;
- 
-}
-.Head{
-  font-size: 20px;
-  color:rgb(121, 54, 54);
-
-
-}
 
 *{
   margin: 0;
@@ -51,7 +26,22 @@ body{
 }
 
 .navbar ul li{
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
+  font-size: 20px;
   color: rgb(117, 7, 7);
+  font-weight: bold;
+}
+
+.navbar ul li a{
+  color:rgb(50, 11, 11) ;
+  padding: 5px;
 
 }
+
+.navbar ul li a:hover{
+  background-color: antiquewhite;
+  color:chocolate;
+
+}
+
+/*Home Section*/
