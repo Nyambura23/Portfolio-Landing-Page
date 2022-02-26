@@ -6,6 +6,7 @@
   box-sizing: border-box;
 
 }
+
 html
 
 /* Navbar */
@@ -53,6 +54,7 @@ html
   justify-content:center;
   align-items: center;
   background-color:grey;
+ 
 }
 
 .main{
@@ -66,8 +68,8 @@ html
 }
 .headings{
   font-family: century;
-  font-size: 25px;
-  text-align: center;
+  font-size: 50px;
+  text-align:center;
   margin: 40px 0px;
 
 }
@@ -95,23 +97,23 @@ html
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 50px;
+ 
 
 }
-#pic{
-  display: flex;
-
+img{
+  width: 350px;
+  height: 400px;
+  
+  
 }
-#pic img{
-  width: 575px;
-  height:400;
-}
+ 
+  
 #intro{
   display: flex;
   flex-direction: column;
   text-align: justify;
   padding: 10px;
   margin: 5px;
-  
 
 }
 #intro h2{
@@ -161,16 +163,17 @@ html
 
 .box{
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   width: 350px;
-  height: 200px;
+  height: 250px;
   border: 1px solid black;
   margin: 10px;
   align-items: center;
   text-align: justify;
   padding: 10px;
   border-radius: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  
 
 }
 .box:hover{
@@ -179,6 +182,11 @@ html
   border: none;
   box-shadow: 0 0 20px goldenrod;
 
+}
+.box img{
+  width: 100px;
+  height: 80px;
+  background-color: antiquewhite;
 }
 
   .gallery{
