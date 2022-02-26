@@ -116,3 +116,24 @@
   margin-bottom: 20px;
 }
 /* Portfolio Section*/
+#porfolio{
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  align-items: center;
+  padding: 20px;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+
+}
+.gallery img{
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+}
+*/
