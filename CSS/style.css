@@ -151,10 +151,11 @@ img{
 /* Portfolio Section*/
 #Porfolio{
   display: flex;
-  flex-direction:column;
+  flex-direction: row;
   padding: 20px;
+
 }
-.row{
+.rows{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -173,6 +174,7 @@ img{
   padding: 10px;
   border-radius: 15px;
   margin-bottom: 5px;
+ 
   
 
 }
