@@ -8,11 +8,16 @@ This is a homepage for my portfolio.It is my first Independent project.It will s
 
 ## How to set it up
 Open terminal or a similar app on your computer
-change directory to Desktop
-copy https://github.com/Nyambura23/Portfolio-Landing-Page
-use git clone and paste that link after it to clone the repository
-open the folder it provides
-open the HTML folder inside
+
+Change directory to Desktop
+
+Copy https://github.com/Nyambura23/Portfolio-Landing-Page
+
+Use git clone and paste that link after it to clone the repository
+
+Open the folder it provides
+
+Open the HTML folder inside
 https://github.com/Nyambura23/Portfolio-Landing-Page
 
 ## Known Bugs
