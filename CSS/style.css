@@ -56,15 +56,7 @@ html
   background-color: whitesmoke;
   
 }
-#home::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: url(../Img/Sunflower.jpeg) no-repeat center center/cover;
-  height: 900px;
   
-}
 .main{
   display: flex;
   flex-direction: column;
@@ -126,11 +118,13 @@ img{
   text-align: justify;
   padding: 10px;
   margin: 5px;
+  
 
 }
-#intro h2{
+#intro h3{
   font-size: 20px;
   margin-bottom: 10px;
+ 
 
 }
 #intro h4{
