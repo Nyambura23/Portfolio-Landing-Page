@@ -53,10 +53,18 @@ html
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  background-color:grey;
- 
+  background-color: whitesmoke;
+  
 }
-
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../Img/Sunflower.jpeg) no-repeat center center/cover;
+  height: 900px;
+  
+}
 .main{
   display: flex;
   flex-direction: column;
@@ -97,8 +105,12 @@ html
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 50px;
+  background: url("../Img/Sunflower.jpeg");
+  z-index: -1;
+  color: rgba(255,194, 27); ;
+  font-weight: bold;
+  font-family: cursive;
  
-
 }
 img{
   width: 350px;
@@ -153,6 +165,8 @@ img{
   display: flex;
   flex-direction: row;
   padding: 20px;
+
+
 
 }
 .rows{
