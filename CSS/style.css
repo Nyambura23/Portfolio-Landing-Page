@@ -53,10 +53,10 @@ html
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  background-color:grey;
- 
+  background-color: whitesmoke;
+  
 }
-
+  
 .main{
   display: flex;
   flex-direction: column;
@@ -97,8 +97,12 @@ html
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 50px;
+  background: url("../Img/Sunflower.jpeg");
+  z-index: -1;
+  color: rgba(255,194, 27); ;
+  font-weight: bold;
+  font-family: cursive;
  
-
 }
 img{
   width: 350px;
@@ -114,11 +118,13 @@ img{
   text-align: justify;
   padding: 10px;
   margin: 5px;
+  
 
 }
-#intro h2{
+#intro h3{
   font-size: 20px;
   margin-bottom: 10px;
+ 
 
 }
 #intro h4{
@@ -154,6 +160,8 @@ img{
   flex-direction: row;
   padding: 20px;
 
+
+
 }
 .rows{
   display: flex;
@@ -187,6 +195,7 @@ img{
 }
 .box img{
   width: 100px;
+  
   height: 80px;
   background-color: antiquewhite;
 }
