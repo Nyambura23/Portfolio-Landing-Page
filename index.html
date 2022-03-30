@@ -1,106 +1,168 @@
 <!DOCTYPE html>
-<html>
-  <head>
-
-    <title>NYAMBURA</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Roboto+Mono:wght@300&family=Ubuntu&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+  <title>Nyambura</title>
 </head>
-  <body>
-   <nav class="navbar">
 
-   <ul>
-    <li><a href="#home"> Home</a></li>
-     <li><a href="#about"> About me</a></li>
-     <li><a href="#Portfolio"> Portfolio</a></li>
-     <li><a href="#Contact">Contact</a></li>
+ <!-- header section -->
 
-    </ul>
-  </nav>
-  <section id="home"></section>
+ <header class="header">
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home"> Home</a></li>
+      <li><a href="#about"> About</a></li>
+      <li><a href="#portfolio"> Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-  <div class="main">
-    
-   
-  </div>
+   <!-- home section  -->
+
+   <section class="home container-fluid" id="home">
+    <div class="homepage">
+      <!-- <img src="./Img/IMG_0552.PNG"> -->
+      <h1>Hi there, <br> My name is Nyambura </h1>
+      <P>I am a Kenyan based Software developer at who thrives in creating, learning, exploring and thinking about how I can make the world a better place.</p>   
+      <a href="#contact" class="button1">Hire me</a>  
+      </div>
+  </section> 
 
 
-  <section id="about">
-    
-    <div id="intro"></div>
-    <h3 style="text-align: center;"> Hi there🙋🏽‍♀️</h3>
-      <p>My name is Nyambura, nice to meet you.</p>
-      <P>I am a Kenyan based Software development student at <a href="http://moringaschool.com/"> Moringa School.</a></P>
-      <p>I thrive in creating, learning, exploring and thinking about how I can make things better.</p>
-      <img src="Img/Nyambura.PNG" alt="A memoji of Nyambura">
-      <p>I am currently learning:</p>
-       <p>
-       <li>HTML</li>
-        <li>CSS</li>
-      </Ol>
-      <P><em>And excited to get into more cool stuff... </em></P>
-   
+     <!-- about section  -->
+     <section class="about" id="about" >
+      <h2>About me</h2>
+      <div class="container">
+        <div class="row">
 
-    
-    <h4>My hobbies include;</h4>
-      <p>
-        <li>Travelling</li>
-        <li>Watching Documentaries</li>
-        <li>Reading</li>
-        <li>Writing</li>
-       </p>
+          <div class="col-md-4">
+            <div class="box1">
+              <p>My name is Nyambura Bianca, a professional and talented front end developer. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences.
+              <br>I currently develop websites using HTML, CSS and JavaScript. 
+              <br>I am also learning Full stack development at  <a href="http://moringaschool.com/"> Moringa School.</a> </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box2">
+              <img src="./Img/nyambu.jpeg" alt=" A photo of Nyambura" height="330" >
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
+
+   <!-- portfolio section  -->
+   <section class="portfolio container-fluid" id="portfolio" >
+    <h3>Portfolio</h3>
+
+    <div class="container">
+      <div class="row portfolio-container">
   
-  
-      <h5>Random facts about me...</h5>
-      <p>I am a sucker for tea, sunsets and sunflowers.</p>
+        <div class="col-md-4">
+         <div class="hidden-content1">
+           <div id="Akan">
+            <h>Akan name generator</h>
+            <p>This is a project that generates an Akan name for users based on their birthday</p> 
+           </div>
+         </div>
+         <div class="content1">
+          <img src="./Img/Sunflower.jpeg" alt="Akan name generator landing page" class="img-fluid">
+          <p>Akan name generator</p>
+         </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="hidden-content2">
+            <div id="Delani">
+             <h>Delani studio</h>
+             <p>This is a sample studio</p> 
+            </div>
+          </div>
+          <div class="content2">
+           <img src="./Img/Sunflower.jpeg" alt="Delani studio websites" class="img-fluid">
+           <p>Delani studio</p>
+          </div>
+         </div>
+
+         <div class="col-md-4">
+          <div class="hidden-content3">
+            <div id="Akan">
+             <h>Pizzeria</h>
+             <p>This is a pizza cafe website</p> 
+            </div>
+          </div>
+          <div class="content3">
+           <img src="./Img/Sunflower.jpeg" alt="Akan name generator landing page" class="img-fluid">
+           <p>Pizzeria</p>
+          </div>
+         </div>
+
+         <div class="col-md-4">
+          <div class="hidden-content4">
+            <div id="Akan">
+             <h>Aesthetic access</h>
+             <p>This is a collaborative project for a wallpaper and paint store that helps users estimate the amount of material they would require based on their room dimensions. Worked on the landing page.</p> 
+            </div>
+          </div>
+          <div class="content4">
+           <img src="./Img/Sunflower.jpeg" alt="Akan name generator landing page" class="img-fluid">
+           <p>Aesthetic access</p>
+          </div>
+         </div>
+
+      </div>
+    </div>
+   </section>
+
+    <!-- contact section   -->
+
+    <section class="contact" id="contact">
     
-    </div>
-
-  </section>
-
-  <section id="Portfolio">
-    <h1 class="headings"> Portfolio</h1>
-    <div class="rows">
-      <div class="box">
-
-        <h1 class="headings">My first website</h1>
-        <P>You can checkout <a href="https://github.com/Nyambura23/my-first-website/"> my first website </a></P>
-        <P>Here is the first website I created using HTML, I really enjoyed all the little tricks I learnt while creating this.</P>
+      <div class="contact">
+        <h4> Contact</h4>
+        <form action="" class="form">
+          <input type="text" name="name" class="input" placeholder="Enter your name" required> 
+          <input type="email" name="email" class="input" placeholder="Enter your email" required>
+          <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Leave your message here" required></textarea>
+          <input type="submit" value="send" id="send">
+        </form>
+        <h5> Get in touch</h5>
+         <P><img src="./Img/linkedin.png " alt="Linkedin icon" width="30px">Nyambura Bianca D. </P>
+         <P><img src="./Img/email.webp" alt="Email icon" width="30px">nyambura.bianca23@gmail.com  </P>
+         <P><img src="./Img/phone.png" alt="Phonecall icon"width="30px"> +254701416659.  </P>
       </div>
+    </section>
 
-      <div class="box">
-
-        <h2 class="headings">Lets  take a Trip</h2>
-        <P>Go through this one if you <a href="https://github.com/Nyambura23/Trips/"> love to travel</a></P>
-      <p> Here is a travel website sample created using HTML.</p>
-      </div>
-      <div class="box">
-
-        <h3 class="headings">My favorite things</h3>
-        <P>Have a look at some of <a href="https://github.com/Nyambura23/My-favorite-things/"> my favorite things </a></P>
-        <P>This is a HTML project listing a few of my favorite things.</P>
-
-      </div>
-      
-      
-    </div>
-  </section>
-
-  <section id="Contact">
-    <h1 class="headings"> Contact</h1>
-    <form action="" class="form">
+    <!-- footer section   -->
+      <!-- <section class="footer" id="footer">
+        <div class="socials"> -->
      
-      <input type="text" name="name" class="input" placeholder="Enter your name" required> 
-      <input type="email" name="email" class="input" placeholder="Enter your email" required>
-      <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Leave your message here" required></textarea>
+        <!-- </div>
+    </section> -->
+      
 
-      <input type="submit" value="send" id="send">
-    </div>
-   
-  </section>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
-  </body>
-</html>
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script src="./js/script.js" ></script>
+    
+    </body>
+    </html>
