@@ -12,7 +12,7 @@ html
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color :rgb(255, 185, 5);
+  background-color :#1b3c4b;
   position: fixed;
   top:0;
   left:0; right: 0;
@@ -37,7 +37,7 @@ html
 }
 
 .navbar ul li a{
-  color:rgb(123, 57, 17) ;
+  color:white ;
   padding: 5px;
   text-decoration: none;
 
@@ -45,7 +45,7 @@ html
 
 .navbar ul li a:hover{
   background-color: white;
-  color: darkorange;
+  color: #1b3c4b;
   border-radius: 10%;
 
 
@@ -58,7 +58,7 @@ html
   justify-content:center;
   align-items: center;
   text-align: center;
-  background-color:rgb(123, 57, 17) ;
+  background-image:url(/Img/Background.avif);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -69,6 +69,10 @@ html
   color: white;
   font-size: 50px;
 
+}
+
+#home img{
+  border-radius: 50%;
 }
 
 
@@ -94,10 +98,13 @@ html
 }
 
 /*About Section*/
+#about{
+  background-color:white;
 
+}
 #about h2{
 text-align: center;
-font-size: 50px;
+font-size: 70px;
 }
 
 .row{
@@ -113,33 +120,38 @@ font-size: 50px;
 
 
 #portfolio{
-  background-color:rgb(123, 57, 17) ;
+  background-color:#1b3c4b ;
 }
 #portfolio h3{
   text-align: center;
   font-size: 50px;
+  color: white;
   }
 
   .portfolio-container {
     align-items: center;
     text-align: center; 
     display: flex;
+    color: white;
   }
 
   .hidden-content1, .hidden-content2, .hidden-content3, .hidden-content4{
     display: none;
     font-size: 25px;
+    color: white;
    
   }
 
   .hidden-content1 h, .hidden-content2 h, .hidden-content3 h, .hidden-content4 h {
     font-weight: bold;
     text-align: center;
+    color: white;
     
     }
 
     .content1, .content2,.content3,.content4{
       text-align: center;
+      color: white;
     }
   
     /*Portfolio Section*/
@@ -153,14 +165,13 @@ font-size: 50px;
     #contact h5{
       text-align: center;
       font-size: 40px;
-      color: white;
+      color: black;
     }
     
     #contact{
     display: flex;
-    background-image: url(../Img/Sunflower.jpeg);
     justify-content: center;
-    color: white;
+    color: black;
   
 
 }
@@ -200,6 +211,7 @@ font-size: 50px;
   margin: 10px;
   text-align: center;
   display: inline;
+
 }
 
 
